@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## MySQL vs MongoDB comparison (comparing traditional SQL with NoSQL DBMS)
 
-You can use the [editor on GitHub](https://github.com/Jacob-Ayers/SQL-vs-NoSQL-comparison/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+My Senior research project will be a performance comparison between SQL and NoSQL Database management systems in order to find where they are most beneficial as well as where they may be deficient for certain tasks and queries. I plan on using YCSB (Yahoo Cloud Server Benchmark) for my comparison between the two. 
 
 ### Markdown
 

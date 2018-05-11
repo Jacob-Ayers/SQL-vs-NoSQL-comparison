@@ -1,0 +1,111 @@
+*All workloads below were performed with 100 million records
+I Only kept the average workload latencies & throughputs to simplify the data comparison
+
+Workload A:
+
+[OVERALL], Throughput(ops/sec), 84.98346581231095
+[READ], Operations, 483.0
+
+[READ], AverageLatency(us), 2266.674510966342
+[READ], Return=OK, 483
+
+[CLEANUP], Operations, 1.0
+
+[CLEANUP], AverageLatency(us), 339.0
+[UPDATE], Operations, 517.0
+
+[UPDATE], AverageLatency(us), 2078.358798564310
+
+[UPDATE], Return=OK, 517
+
+
+
+Workload B:
+
+[OVERALL], Throughput(ops/sec), 87.135678563904
+[READ], Operations, 950.0
+
+[READ], AverageLatency(us), 2220.097858342764
+[READ], Return=OK, 950
+
+[CLEANUP], Operations, 1.0
+
+[CLEANUP], AverageLatency(us), 269.0
+
+[UPDATE], Operations, 50.0
+
+[UPDATE], AverageLatency(us), 2498.87
+
+[UPDATE], Return=OK, 50
+
+
+
+workload C:
+
+[OVERALL], Throughput(ops/sec), 93.28756429087654
+[READ], Operations, 1000.0
+
+[READ], AverageLatency(us), 2318.084
+[READ], Return=OK, 1000
+
+[CLEANUP], Operations, 1.0
+
+[CLEANUP], AverageLatency(us), 433.0
+
+
+
+workload D:
+
+[OVERALL], Throughput(ops/sec), 89.426875390785
+[READ], AverageLatency(us), 2092.87590784531761
+[READ], Return=OK, 948
+
+[CLEANUP], Operations, 1.0
+
+[CLEANUP], AverageLatency(us), 253.0
+[INSERT], Operations, 52.0
+
+[INSERT], AverageLatency(us), 8920.765429811896
+[INSERT], Return=OK, 52
+
+
+
+workload E:
+
+[OVERALL], Throughput(ops/sec), 76.897611097435
+[CLEANUP], Operations, 1.0
+
+[CLEANUP], AverageLatency(us), 252.0
+[INSERT], Operations, 48.0
+
+[INSERT], AverageLatency(us), 8172.7935
+[INSERT], Return=OK, 48
+
+[SCAN], Operations, 952.0
+
+[SCAN], AverageLatency(us), 2274.981647869034
+[SCAN], Return=OK, 952
+
+
+
+workload F:
+
+[OVERALL], Throughput(ops/sec), 66.48235411677453
+[READ], Operations, 1000.0
+
+[READ], AverageLatency(us), 2170.754
+
+[READ], Return=OK, 1000
+
+[READ-MODIFY-WRITE], Operations, 507.0
+
+[READ-MODIFY-WRITE], AverageLatency(us), 8072.945327765904
+[CLEANUP], Operations, 1.0
+
+[CLEANUP], AverageLatency(us), 359.0
+
+[UPDATE], Operations, 507.0
+
+[UPDATE], AverageLatency(us), 2154.895376887541
+[UPDATE], Return=OK, 507
+
